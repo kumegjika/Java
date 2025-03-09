@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f474d777-be3a-4ecf-9569-f56c8ae06869" name="Changes" comment="java basics">
+    <list default="true" id="f474d777-be3a-4ecf-9569-f56c8ae06869" name="Changes" comment="exercises helloworld">
+      <change afterPath="$PROJECT_DIR$/src/SimpleBankingAplication/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleBankingAplication/BankApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleBankingAplication/BankOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleBankingAplication/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +24,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kumegjika&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kumegjika/Java.git&quot;,
+    &quot;accountId&quot;: &quot;72223448-137b-46c8-90a9-6aa476e70ebe&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -34,17 +56,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/JavaTasks/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BankApp.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/JavaTasks/src/Main.java"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.BankApp">
+    <configuration name="BankApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleBankingAplication.BankApp" />
+      <module name="JavaTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SimpleBankingAplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasic.HelloWorld" />
       <module name="JavaTasks" />
@@ -60,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankApp" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -97,7 +134,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741515386112</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="exercises helloworld">
+      <option name="closed" value="true" />
+      <created>1741543833350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741543833350</updated>
+    </task>
+    <task id="LOCAL-00005" summary="exercises helloworld">
+      <option name="closed" value="true" />
+      <created>1741543916089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741543916089</updated>
+    </task>
+    <task id="LOCAL-00006" summary="exercises helloworld">
+      <option name="closed" value="true" />
+      <created>1741543981761</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741543981761</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -105,7 +166,8 @@
     <MESSAGE value="hello world java" />
     <MESSAGE value="main" />
     <MESSAGE value="java basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="java basics" />
+    <MESSAGE value="exercises helloworld" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercises helloworld" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
